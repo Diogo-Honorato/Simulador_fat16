@@ -14,7 +14,7 @@ int main() {
     printf("Digite 'load' para carregar um sistema de arquivos existente.\n\n");
     
     while (1) {
-        printf("fat16: ");
+        printf("~fat16$ ");
         fflush(stdout);
         
         if (fgets(command, sizeof(command), stdin) == NULL) {

@@ -171,7 +171,7 @@ void process_command(fat16_fs_t* fs, const char* command) {
         printf("  append \"dados\" <caminho>    - Anexar dados a arquivo\n");
         printf("  read <caminho>              - Ler conteúdo de arquivo\n");
         printf("  help                        - Mostrar esta ajuda\n");
-        printf("  exit                        - Sair do programa\n");
+        printf("  exit                        - Sair do programa\n\n");
         
     } else if (strcmp(token, "exit") == 0) {
         printf("Saindo...\n");
