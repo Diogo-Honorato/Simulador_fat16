@@ -29,7 +29,7 @@ make run
 # Limpar arquivos compilados
 make clean
 
-# Executar teste básico
+# Executar o script test_fat16.sh
 make test
 
 # Verificar vazamentos de memória (requer valgrind)
